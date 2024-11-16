@@ -1,5 +1,5 @@
 {% set name = "templ" %}
-{% set version = "0.2.771" %}
+{% set version = "0.2.793" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/a-h/templ/archive/v{{ version }}.tar.gz
-  sha256: 4d9b352e69198ddbc0ad7abb2bde2abff7a35f4ad8723c46ac7b36af6f0a8628
+  sha256: be924c8b359748b0109c18831e1105618f6174a0f40645d5b82a91e7a9a8fffc
 
 build:
   number: 0
