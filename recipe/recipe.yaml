@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.3.960
+  version: "0.3.977"
 
 package:
   name: templ
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/a-h/templ/archive/v${{ version }}.tar.gz
-  sha256: 61c1d8fe51c6351be10977e69049787eae44aa1fa7c09bfac493c80a1f884dae
+  sha256: fbad3c9e2b6d9b551b1831de30b450d0735f4a9c0773f4f92fb1a16d1243af46
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
